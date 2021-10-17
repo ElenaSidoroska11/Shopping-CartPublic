@@ -1,0 +1,14 @@
+<hr>
+<h6 class="text-success text-center">Your Card</h6>
+<hr>
+<div *ngIf="cartItems.length===0" class="alert alert-info">Cart is empty</div>
+
+<ul *ngIf="cartItems.length>0" class="list-group">
+  <li class="list-group-item" *ngFor="let item of cartItems">
+    <app-card-item [cartItem]="item"></app-card-item>
+  </li>
+
+  <li class="list-group-item-secondary active ">
+    <strong class="text-success">Total : {{ cartTotal| currency: 'EUR'}}</strong>
+  </li>
+</ul>

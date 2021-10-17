@@ -1,0 +1,103 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Volkswagen Up",
+      "description": "Volkswagen Up Yellow",
+      "imageUrl": "https://uploads.volkswagen-newsroom.com/system/production/media/13767/images/96eacd307403601ea52e16de53bd65c3a1e70159/DB2016AU00570_blog.jpg?1580920703",
+      "price": 1000
+    },
+    {
+      "id": 2,
+      "name": "Volkswagen Up",
+      "description": "Volkswagen Up White",
+      "imageUrl": "https://i.pinimg.com/originals/3c/5b/f5/3c5bf5ab2cae35c96fb0398674980e8b.jpg",
+      "price": 2000
+    },
+    {
+      "id": 3,
+      "name": "Volkswagen Up",
+      "description": "Volkswagen Up Red",
+      "imageUrl": "http://www.blogcdn.com/www.autoblog.com/media/2012/10/01-2012-volkswagen-up-review.jpg",
+      "price": 3000
+    },
+    {
+      "id": 4,
+      "name": "Volkswagen Up",
+      "description": "Volkswagen Up Blue",
+      "imageUrl": "https://s1.cdn.autoevolution.com/images/models/VOLKSWAGEN_up--5-doors-2016_main.jpg",
+      "price": 4000
+    },
+    {
+      "id": 5,
+      "name": "Volkswagen Up",
+      "description": "Volkswagen Up Black",
+      "imageUrl": "https://pictures.topspeed.com/IMG/crop/201108/2012-volkswagen-up-10_800x0w.jpg",
+      "price": 5000
+    },
+    {
+      "id": 6,
+      "name": "Volkswagen Up",
+      "description": "Volkswagen Up Grey",
+      "imageUrl": "https://parkers-images.bauersecure.com/Scale/pagefiles/303045/cut-out/900x600/volkswagen_e-up-00.jpg",
+      "price": 6000
+    }
+  ],
+  "wishList": [
+    {
+      "id": 6
+    }
+  ],
+  "cart": [
+    {
+      "product": {
+        "id": 1,
+        "name": "Volkswagen Up",
+        "description": "Volkswagen Up Yellow",
+        "imageUrl": "https://uploads.volkswagen-newsroom.com/system/production/media/13767/images/96eacd307403601ea52e16de53bd65c3a1e70159/DB2016AU00570_blog.jpg?1580920703",
+        "price": 1000
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Volkswagen Up",
+        "description": "Volkswagen Up Yellow",
+        "imageUrl": "https://uploads.volkswagen-newsroom.com/system/production/media/13767/images/96eacd307403601ea52e16de53bd65c3a1e70159/DB2016AU00570_blog.jpg?1580920703",
+        "price": 1000
+      },
+      "id": 2
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Volkswagen Up",
+        "description": "Volkswagen Up White",
+        "imageUrl": "https://i.pinimg.com/originals/3c/5b/f5/3c5bf5ab2cae35c96fb0398674980e8b.jpg",
+        "price": 2000
+      },
+      "id": 3
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Volkswagen Up",
+        "description": "Volkswagen Up White",
+        "imageUrl": "https://i.pinimg.com/originals/3c/5b/f5/3c5bf5ab2cae35c96fb0398674980e8b.jpg",
+        "price": 2000
+      },
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

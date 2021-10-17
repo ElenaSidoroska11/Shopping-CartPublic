@@ -1,0 +1,8 @@
+
+<h6 class="text-success text-center">List Of Our Cars</h6>
+<br>
+<div class="row">
+  <div class="col-md-4" *ngFor="let product of productList">
+<app-product-item [productItem]="product" [addedToWishList]="wishlist.indexOf(product.id) >= 0"></app-product-item>
+  </div>
+</div>
